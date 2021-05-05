@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./index.css"
+import "../index.css"
 
-function Tabs() {
+function TabPanel() {
     const [toggleState, setTogglestate] = useState(1);
 
     const toggleTab = (index) => {
@@ -60,4 +60,4 @@ function Tabs() {
     )
 }
 
-export default Tabs;
+export default TabPanel;

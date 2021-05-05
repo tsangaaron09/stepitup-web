@@ -1,11 +1,14 @@
-import React from 'react';
+import Tabs from "./TabPanel.js";
+import Title from "./Title.js";
+import "./App.css";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>App Component</div>
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <Title />
+      <Tabs />
+    </div>
+  );
 }
 
 export default App;
