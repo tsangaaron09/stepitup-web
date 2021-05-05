@@ -1,5 +1,5 @@
-import Tabs from "./TabPanel.js";
-import Title from "./Title.js";
+import Tabs from "./TabPanel";
+import Title from "./Title";
 import "./App.css";
 
 function App() {
