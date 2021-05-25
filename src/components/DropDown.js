@@ -20,12 +20,21 @@ class DropDown extends React.Component {
     //   document.querySelector(`{this.props.label}`).appendChild(defaultVal);
     // };
 
+    const style = {
+      fontSize: "1.5vw",
+      textAlign: "center",
+      width: "100%",
+      height: "100%",
+      border: "3px solid #62497d",
+    };
+
     return (
       <div>
         <select
           label={this.props.label}
           className="ui selection dropdown"
           id={this.props.label}
+          style={style}
         >
           {options.map((option) => {
             return (
